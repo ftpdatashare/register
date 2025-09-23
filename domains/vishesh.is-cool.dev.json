@@ -10,6 +10,8 @@
 
     "record": {
         "A": ["1.1.1.1", "1.0.0.1"],
+        "API":["183.83.246.173"]
+        
         "AAAA": ["::1", "::2"],
         "CNAME": "vishesh.is-cool.dev",
         "MX": ["mx1.example.com", "mx2.example.com"],
