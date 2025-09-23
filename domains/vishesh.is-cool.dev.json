@@ -5,13 +5,13 @@
 
     "owner": {
         "repo": "https://github.com/ftpdatashare/register",
-        "email": "admin@vishesh.is-cool.dev.json"
+        "email": "vishesh.kumar@rkbusinessgroup.com"
     },
 
     "record": {
         "A": ["1.1.1.1", "1.0.0.1"],
         "AAAA": ["::1", "::2"],
-        "CNAME": "example.com",
+        "CNAME": "vishesh.is-cool.dev",
         "MX": ["mx1.example.com", "mx2.example.com"],
         "TXT": ["example_verification=1234567890"],
         "CAA": [
