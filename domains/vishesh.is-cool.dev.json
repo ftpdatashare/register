@@ -1,29 +1,24 @@
 {
-    "description": "for patch server",
-    "domain": "is-cool.dev",
-    "subdomain": "vishesh",
-
-    "owner": {
-        "repo": "https://github.com/ftpdatashare/register",
-        "email": "vishesh.kumar@rkbusinessgroup.com"
-    },
-
-    "record": {
-        "A": ["1.1.1.1", "1.0.0.1"],
-        "CNAME": "vishesh.is-cool.dev",
-        "NS": ["alex.ns.cloudflare.com"],
-        "NS": ["ollie.ns.cloudflare.com"],
-        "TXT": ["_acme-challenge_verification=RK8qVpk45ybnzltUhyG4v8c4wCuggwEPTXCptXJbr8U"],
-        "CAA": [
-            { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
-            { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
-        ],
-        "SRV": [
-            { "priority": 10, "weight": 60, "port": 5060, "target": "sipserver.example.com" },
-            { "priority": 20, "weight": 10, "port": 5061, "target": "sipbackup.example.com" }
-        ]
-    },
-
-    "proxied": false
+  "description": "for patch server",
+  "domain": "is-cool.dev",
+  "subdomain": "vishesh",
+  "owner": {
+    "repo": "https://github.com/ftpdatashare/register",
+    "email": "vishesh.kumar@rkbusinessgroup.com"
+  },
+  "record": {
+    "A": ["1.1.1.1", "1.0.0.1"],
+    "AAAA": ["::1", "::2"],
+    "CNAME": "alex.ns.cloudflare.com",
+    "CNAME": "ollie.ns.cloudflare.com",  
+    "MX": ["mx1.example.com", "mx2.example.com"],
+    "TXT": [
+      "_acme-challenge_verification=RK8qVpk45ybnzltUhyG4v8c4wCuggwEPTXCptXJbr8U"
+    ],
+    "CAA": [
+      { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
+      { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
+    ]
+  }
 }
 
